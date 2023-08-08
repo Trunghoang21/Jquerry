@@ -24,6 +24,7 @@ $("a").attr("href","http://www.yahoo.com");
 // it's easier than using vanilla Javascript
 $("h1").click(function(){
     $("h1").css("color","purple");
+    $("h1").slideUp().slideDown();
 });
 
 // here is the example if u are using DOM
@@ -47,3 +48,6 @@ $("h1").before("<button>hi</button>");
 
 
 // and use the remove methods to remove the html element.
+// there is some methods in JQuerry that can make the element to animate,
+// ex: slideUp, slideDown. animate
+
